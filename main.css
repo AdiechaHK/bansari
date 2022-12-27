@@ -1,0 +1,18 @@
+#welcome {
+    /* background-color: green; */
+    height: calc(100vh - 104px);
+}
+
+section.main-section:nth-child(odd) {
+    background-color: #00c5cc;
+    padding: 3%;
+    -ms-transform: skew(0deg,2deg); /* IE 9 */
+    -webkit-transform: skew(0deg,2deg); /* Safari */
+    transform: skew(0deg,2deg); /* Standard syntax */
+}
+
+section.main-section > .sec-container {
+    -ms-transform: skew(0deg,-2deg); /* IE 9 */
+    -webkit-transform: skew(0deg,-2deg); /* Safari */
+    transform: skew(0deg,-2deg); /* Standard syntax */
+}
